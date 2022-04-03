@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <!-- This is spinners -->
+  <div class="container m-5">
+    <div class="spinner-border"></div>
+    <div class="spinner-border text-success"></div>
+    <div class="spinner-border text-info"></div>
+    <div class="spinner-border text-warning"></div>
+    <div class="spinner-border text-danger"></div>
+  </div>
+
+  <!-- This is list-group -->
+  <div class="container m-2">
+    <ul class="list-group">
+      <li class="list-group-item active" aria-current="true">An active item</li>
+      <li class="list-group-item">A second item</li>
+      <li class="list-group-item">A third item</li>
+      <li class="list-group-item">A fourth item</li>
+      <li class="list-group-item">And a fifth one</li>
+    </ul>
+  </div>
+
+
+  <!-- This is Cards -->
+  <div class="container m-2">
+    <div class="card" style="width: 18rem;">
+      <img src="img/f40a88e5-6e1e-4933-866b-aa2e6976e0c4-a69a0519d586.jpg" class="card-img-top" alt="laptop image">
+
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+          card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- This is dropdowns -->
+  <div class="container m-5">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle " id="mybutton" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">Dropdown</button>
+      <div class="dropdown-menu" aria-labelledby="mybutton">
+        <div class="dropdown-item">projects</div>
+        <div class="dropdown-item">skill</div>
+        <div class="dropdown-item">about</div>
+        <div class="dropdown-item">contact</div>
+        <div class="dropdown-item">home</div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Part 2 -->
+  <div class="container m-5">
+    <div class="dropdown">
+      <button type="button" class="btn btn-Success dropdown-toggle" data-toggle="dropdown">
+        Dropdown button
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- This is collapse -->
+  <div class="container m-5">
+    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+    <div id="demo" class="collapse">
+      Lorem ipsum dolor text....
+    </div>
+  </div>
+
+  <!-- Part 2 -->
+  <div class="containar m-5">
+    <p>
+      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Link with href
+      </a>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample">
+        Button with data-target
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user
+        activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
